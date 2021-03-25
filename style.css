@@ -1,0 +1,92 @@
+body {
+    font-size: 15pt;
+    background-image: url(19187709.jpg);
+}
+@media screen and (max-width:576px){
+nav {
+ display: flex;
+ background-color: greenyellow;
+  background-image: linear-gradient(greenyellow, yellow,blue);
+ justify-content: space-around;
+ padding: 20px 0;
+ color: #E056FF;
+ height: 200px;
+ opacity: 0.8;
+ border-radius:5px;
+ /*align-items: center;*/
+}
+
+nav .logo {
+ letter-spacing: 5px;
+ font-size: 35px;
+}
+
+nav ul li{
+ list-style: none;
+}
+
+nav ul li a{
+ display:flex;
+ text-decoration: none;
+ margin-bottom: 40px;
+ font-family: 'Syne Mono', monospace;
+ font-size: 25px;
+ background-color: transparent;
+ opacity: 0.8;
+ border:3px solid blue;
+ border-radius: 10px;
+}
+
+nav ul li a:hover{
+ color:salmon;
+}
+
+/*contact Pak Sandhika*/
+
+.background{
+        background-color:black;
+        margin-top: -10px;
+        height: 230px;
+        border-radius: 5px;
+}
+
+.background img {
+  display: block;
+  margin-top:20px;
+  margin-left: 3px;
+  margin-right: auto; 
+  border-radius: 100px;
+  border: 3px solid white;
+}
+
+.background h5{
+        color:white;
+        margin-left: 40px;
+        margin-top: 10px;
+}
+
+/*contact Sir Elon*/
+
+.background2 {
+        background-color: black;
+        margin-top: -17px;
+        height: 230px;
+        border-radius: 5px;
+}
+
+.background2 img {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 200px;
+        margin-right: 10px;
+        border-radius: 50%;
+        border: 3px solid white;
+        height:200px;
+}
+
+.background2 h5 {
+        color: white;
+        margin-left: 270px;
+        margin-top: 5px;
+}
+}
